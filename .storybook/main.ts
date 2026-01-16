@@ -19,6 +19,10 @@ const config: StorybookConfig = {
       ...config.resolve.alias,
       '@': resolve(__dirname, '../src'),
     };
+    // GitHub Pages base path configuration
+    if (process.env.GITHUB_PAGES === 'true') {
+      config.base = '/design-system/';
+    }
     return config;
   },
   docs: {
