@@ -21,7 +21,7 @@ const config: StorybookConfig = {
     };
     // GitHub Pages base path configuration
     if (process.env.GITHUB_PAGES === 'true') {
-      config.base = '/design-system/';
+      config.base = '/variation-design-system/';
     }
     return config;
   },
