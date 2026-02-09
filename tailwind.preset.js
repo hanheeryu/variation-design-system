@@ -13,19 +13,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Primary - Warm terracotta
+        // Primary - Variation
         primary: {
-          50: '#FDF8F6',
-          100: '#FBEFED',
-          200: '#F5DCD7',
-          300: '#EEC3BB',
-          400: '#E29C8F',
-          500: '#D38475',
-          600: '#C06A59',
-          700: '#A15548',
-          800: '#84463C',
-          900: '#6D3B33',
-          950: '#3A1E1A',
+          '50': '#FEF7F7',
+          '100': '#FEF0F0',
+          '200': '#FEE2E2',
+          '300': '#FEC5C5',
+          '400': '#FEA9A9',
+          '500': '#FE8C8C',
+          '600': '#FE7070',
+          '700': '#E46464',
+          '800': '#CB5959',
+          '900': '#B14E4E',
+          '950': '#984343',
         },
         // Secondary - Complementary palette
         secondary: {
@@ -43,16 +43,8 @@ module.exports = {
         },
         // Semantic
         success: {
-          50: '#F0FDF4',
-          100: '#DCFCE7',
-          200: '#BBF7D0',
-          300: '#86EFAC',
-          400: '#4ADE80',
-          500: '#22C55E',
-          600: '#16A34A',
-          700: '#15803D',
-          800: '#166534',
-          900: '#14532D',
+          500: '#E6FCF5',
+          800: '#00D897',
         },
         warning: {
           50: '#FFFBEB',
