@@ -15,7 +15,7 @@ module.exports = {
       colors: {
         // Primary - Warm terracotta
         primary: {
-          50: '#FDF8F7',
+          50: '#FDF8F6',
           100: '#FBEFED',
           200: '#F5DCD7',
           300: '#EEC3BB',
